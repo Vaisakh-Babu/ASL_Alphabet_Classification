@@ -9,4 +9,4 @@ The data set is a collection of images of alphabets from the American Sign Langu
 ### Approach
 preprocessing module from Keras is used to load and scale the images into same size(200,200,3). A VGG16 architecture is used to build the neural network.
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20200219152327/conv-layers-vgg16.jpg)
-The model gave 88% accuracy on the test dataset(train-test split = 90:10).
+The model is able to give 95% accuracy.
